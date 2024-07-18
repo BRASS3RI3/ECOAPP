@@ -1,5 +1,5 @@
 public class OrderObserver {
-    void update(Order order) {
+    void update(Order  order) {
 
     }
 }

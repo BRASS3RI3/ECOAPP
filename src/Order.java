@@ -49,6 +49,6 @@ public class Order {
 
     @Override
     public String toString() {
-        return "Order: " + items.size() + " items, Total: €" + totalPrice + ", Shipping: €" + shippingCost;
+        return "Order: " + items.size() + " items, Total: €" + totalPrice + ", Shipping: € " + shippingCost;
     }
 }

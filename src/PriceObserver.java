@@ -4,7 +4,7 @@ public class PriceObserver extends OrderObserver {
         if (order.getTotalPrice() > 200) {
             double discount = 20.0;
             order.setTotalPrice(order.getTotalPrice() - discount);
-            System.out.println("Applied 10€ discount. New total: €" + order.getTotalPrice());
+            System.out.println("Applied 10€  discount. New total: €" + order.getTotalPrice());
         }
     }
 }
